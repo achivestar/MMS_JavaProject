@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `member` (
+ id int not null auto_increment,
+ name varchar(20) not null,
+ addr varchar(20) not null,
+ nation varchar(20) not null,
+ email varchar(30) not null,
+ age int,
+ PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
